@@ -1,7 +1,7 @@
 language: python
 
 install:
- - pip install -r sphinx sphinx-rtd-theme
+ - pip install sphinx sphinx-rtd-theme
 
 script:
   # travis will start in the root of your repository so we need to
