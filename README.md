@@ -115,8 +115,8 @@ Our documentation will be built when we push our files to github, we cannot push
 
 We can now add the remaining files.  From the project root directory (sphinx-travis-github) stage and commit the files, and then push them to GitHub with the following commands:
 
-   git add .
-   git commit -m 'First commit of docs'
-   git push
+    git add .
+    git commit -m 'First commit of docs'
+    git push
 
 This should send our files to github, travis will then build and deploy them and the results will be hosted on username.github.io/repository-name, in this case: longr.github.io/sphinx-travis-github
